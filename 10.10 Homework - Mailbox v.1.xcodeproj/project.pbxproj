@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D704E90B1DAC1AC200215424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704E90A1DAC1AC200215424 /* AppDelegate.swift */; };
-		D704E90D1DAC1AC200215424 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704E90C1DAC1AC200215424 /* ViewController.swift */; };
 		D704E9101DAC1AC200215424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D704E90E1DAC1AC200215424 /* Main.storyboard */; };
 		D704E9121DAC1AC200215424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D704E9111DAC1AC200215424 /* Assets.xcassets */; };
 		D704E9151DAC1AC200215424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D704E9131DAC1AC200215424 /* LaunchScreen.storyboard */; };
 		D704E9201DAC1AC200215424 /* _0_10_Homework___Mailbox_v_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704E91F1DAC1AC200215424 /* _0_10_Homework___Mailbox_v_1Tests.swift */; };
 		D704E92B1DAC1AC200215424 /* _0_10_Homework___Mailbox_v_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704E92A1DAC1AC200215424 /* _0_10_Homework___Mailbox_v_1UITests.swift */; };
+		D704E9391DAC1CB300215424 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704E9381DAC1CB300215424 /* MailboxViewController.swift */; };
+		D704E93B1DAC97FB00215424 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704E93A1DAC97FB00215424 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		D704E9071DAC1AC200215424 /* 10.10 Homework - Mailbox v.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10.10 Homework - Mailbox v.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D704E90A1DAC1AC200215424 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D704E90C1DAC1AC200215424 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D704E90F1DAC1AC200215424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D704E9111DAC1AC200215424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D704E9141DAC1AC200215424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		D704E9261DAC1AC200215424 /* 10.10 Homework - Mailbox v.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10.10 Homework - Mailbox v.1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D704E92A1DAC1AC200215424 /* _0_10_Homework___Mailbox_v_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_10_Homework___Mailbox_v_1UITests.swift"; sourceTree = "<group>"; };
 		D704E92C1DAC1AC200215424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D704E9381DAC1CB300215424 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
+		D704E93A1DAC97FB00215424 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		D704E9091DAC1AC200215424 /* 10.10 Homework - Mailbox v.1 */ = {
 			isa = PBXGroup;
 			children = (
+				D704E9381DAC1CB300215424 /* MailboxViewController.swift */,
 				D704E90A1DAC1AC200215424 /* AppDelegate.swift */,
-				D704E90C1DAC1AC200215424 /* ViewController.swift */,
+				D704E93A1DAC97FB00215424 /* Common.swift */,
 				D704E90E1DAC1AC200215424 /* Main.storyboard */,
 				D704E9111DAC1AC200215424 /* Assets.xcassets */,
 				D704E9131DAC1AC200215424 /* LaunchScreen.storyboard */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D704E90D1DAC1AC200215424 /* ViewController.swift in Sources */,
 				D704E90B1DAC1AC200215424 /* AppDelegate.swift in Sources */,
+				D704E93B1DAC97FB00215424 /* Common.swift in Sources */,
+				D704E9391DAC1CB300215424 /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
